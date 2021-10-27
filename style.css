@@ -25,6 +25,7 @@
    border-radius: 50%;
    object-fit: cover;
    object-position: top;
+   padding: 0px 10px;
  }
 
 a {
@@ -44,7 +45,7 @@ li {
 .fab {
   color:#bfb5c5;
   font-size: 50px;
-  margin: 5px 20px ;
+  margin: 5px 20px;
 }
 
 .container {
@@ -71,14 +72,20 @@ background: #005f73;
 
 @media (max-width: 390px){
   h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
 }
 
 @media (max-width: 390px){
-  .avatar {
-    width: 150px;
-   height: 150px;
+  #avatar {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 390px){
+  a {
+    font-size: 20px;
   }
 }
 
